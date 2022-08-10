@@ -1,3 +1,3 @@
 # repo for my personal website
 
-made with Bootstrap, Twitter's html, css, and js framework.
+made with Bootstrap: a html, css, and js framework developed at Twitter.

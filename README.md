@@ -1,3 +1,3 @@
-# repo for my personal website
+# https://edwinliiiii.github.io
 
 made with Bootstrap

@@ -73,7 +73,10 @@ export default function ExperienceCard({cardInfo, isDark}) {
               : "subTitle experience-text-desc"
           }
         >
-          {cardInfo.desc}
+          {cardInfo.desc1} <></>
+          {cardInfo.desc2} <></>
+          {cardInfo.desc3} <></>
+          {cardInfo.desc4}
         </p>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />

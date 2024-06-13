@@ -22,7 +22,10 @@ export default function WorkExperience() {
                       isDark={isDark}
                       cardInfo={{
                         company: card.company,
-                        desc: card.desc,
+                        desc1: card.desc1,
+                        desc2: card.desc2,
+                        desc3: card.desc3,
+                        desc4: card.desc4,
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,

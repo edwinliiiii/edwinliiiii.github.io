@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "...",
-  title: "Hi all, I'm Edwin",
+  title: "Hey there, I'm Edwin",
   subTitle: emoji(
-    "The goat Software Engineer 🐐 🚀 with experience building Web and Mobile applications. Nasty at Full Stack Dev and Cloud Engineering."
+    "a Software Engineer 🐐 with experience building Web and Mobile applications. 🚀 I enjoy Full Stack Dev and Cloud Engineering."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,8 +48,8 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop elegant Front ends / User Interfaces for web and mobile applications"),
     emoji("⚡ Business logic & data delivery following Microservice architecture / Lightweight protocol"),
-    emoji("⚡ Data infrastructure with Python & TypeScript ETL / AWS & Bash Orchestration"),
-    emoji("⚡ Integration of third party services such as AWS / ElasticSearch / MongoDB")
+    emoji("⚡ Data infrastructure through ETL pipelining and AWS / Bash Orchestration "),
+    emoji("⚡ Integration of third party services like AWS / ElasticSearch / MongoDB")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -57,94 +57,107 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "TypeScript / JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "aws",
+      fontAwesomeClassname: "aws"
     },
     {
       skillName: "react",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-github"
+      fontAwesomeClassname: "react"
     },
     {
       skillName: "vue",
-      fontAwesomeClassname: "fab fa-vuejs"
+      fontAwesomeClassname: "vue"
+    },
+    {
+      skillName: "node",
+      fontAwesomeClassname: "node"
+    },
+    {
+      skillName: "graphql",
+      fontAwesomeClassname: "graphql"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "flask"
+    },
+    {
+      skillName: "elasticsearch",
+      fontAwesomeClassname: "elastic"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "mongo"
+    },
+    {
+      skillName: "postgres",
+      fontAwesomeClassname: "postgres"
+    },
+    {
+      skillName: "prisma",
+      fontAwesomeClassname: "prisma"
+    },
+    {
+      skillName: "sql",
+      fontAwesomeClassname: "sql"
+    },
+    {
+      skillName: "typescript",
+      fontAwesomeClassname: "typescript"
+    },
+    {
+      skillName: "javascript",
+      fontAwesomeClassname: "javascript"
+    },
+    {
+      skillName: "html",
+      fontAwesomeClassname: "html"
+    },
+    {
+      skillName: "css",
+      fontAwesomeClassname: "css"
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "python"
+    },
+    {
+      skillName: "golang",
+      fontAwesomeClassname: "golang"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "java"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "npm"
+    },
+    {
+      skillName: "yarn",
+      fontAwesomeClassname: "yarn"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "jenkins"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "git"
+    },
+    {
+      skillName: "cli",
+      fontAwesomeClassname: "cli"
+    },
+    {
+      skillName: "lol",
+      fontAwesomeClassname: "racket"
     },
   ],
   display: true // Set false to hide this section, defaults to true
-};
-
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -165,7 +178,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,30 +187,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Co-op",
+      company: "Wood Mackenzie",
+      companylogo: require("./assets/images/woodmac.jpeg"),
+      date: "Jan 2024 – June 2024",
+      desc1: emoji("One-Lens Power & Renewables"),
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "TypeScript, React, GraphQL, Python",
+        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step]"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Co-op",
+      company: "MITRE",
+      companylogo: require("./assets/images/mitre.jpeg"),
+      date: "Jan 2023 – June 2023",
+      desc1: emoji("Business-knowledge web apps"),
+      descBullets: ['JavaScript, Vue, Node, Express, Python', 'Integration with Elasticsearch & AWS S3']
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Software Engineer",
+      company: "Generate Product Development",
+      companylogo: require("./assets/images/generate.jpeg"),
+      date: "Sept 2023 – Dec 2023",
+      desc1: emoji("Legacy, an end-of-life planning solution"),
+      descBullets: ['TypeScript, React Native, Golang, PostgreSQL', 'Encrypted file integration with AWS S3']
+    },
+    {
+      role: "Teaching Assistant",
+      company: "Khoury - Northeastern University",
+      companylogo: require("./assets/images/neu.jpeg"),
+      date: "Sept 2022 – Dec 2023",
+      descBullets: [
+        "CS3000: Data Structures & Algorithms",
+        "CY2550: Foundations of Cybersecurity"
+      ]
+    },
   ]
 };
 
@@ -240,6 +265,25 @@ const bigProjects = {
     }
   ],
   display: true // Set false to hide this section, defaults to true
+};
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/neu.jpeg"),
+      subHeader: "Candidate for BS, Computer Science & Business Administration",
+      duration: "September 2021 - April 2025",
+      desc: "Participated in software development student orgs.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+  ]
 };
 
 // Achievement Section
@@ -300,7 +344,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +368,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +387,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +400,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -383,7 +427,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

@@ -23,7 +23,7 @@ const greeting = {
   username: "...",
   title: "Hey there, I'm Edwin",
   subTitle: emoji(
-    "a Software Engineer 🐐 with experience building Web and Mobile applications. 🚀 I enjoy Full Stack Dev and Cloud Engineering."
+    "a Software Engineer 🐐 with experience building Web and Mobile applications. 🚀 I greatly enjoy Full Stack Dev and Cloud Engineering."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/edwinliiiii",
   linkedin: "https://www.linkedin.com/in/edwinliiiii",
-  gmail: "liedwin42@gmail.com",
+  gmail: "li.edw@northeastern.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -163,7 +163,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -191,10 +191,10 @@ const workExperiences = {
       company: "Wood Mackenzie",
       companylogo: require("./assets/images/woodmac.jpeg"),
       date: "Jan 2024 – June 2024",
-      desc1: emoji("One-Lens Power & Renewables"),
+      desc1: emoji("Lens Power & Renewables"),
       descBullets: [
         "TypeScript, React, GraphQL, Python",
-        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step]"
+        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step, Athena]"
       ]
     },
     {
@@ -229,41 +229,55 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND PRODUCTS THAT I CONTRIBUTED LARGELY TO",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/legacy.png"),
+      projectName: "Legacy",
+      projectDesc: "All-encompassing end-of-life planning mobile app, pitched to investors December 2023.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Contributions",
+          url: "https://github.com/edwinliiiii/legacy-edwin/"
+        },
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/company/legacytheapp/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/woodmac.jpeg"),
+      projectName: "Lens Power & Renewables",
+      projectDesc: "Power and renewables solution providing market intelligence to customers, strengthening investment strategies for clean energy transitions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.woodmac.com/lens/power/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mitre.jpeg"),
+      projectName: "MITRE Campaigns",
+      projectDesc: "Business-knowledge driven solution to draw sponsors towards R&D Initiatives.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.mitre.org/"
         }
       ]
     }
   ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const openSource = {
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -277,10 +291,13 @@ const educationInfo = {
       logo: require("./assets/images/neu.jpeg"),
       subHeader: "Candidate for BS, Computer Science & Business Administration",
       duration: "September 2021 - April 2025",
-      desc: "Participated in software development student orgs.",
+      desc: "How I spend my days:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Teaching Assistant",
+        "Generate Product Development",
+        "Northeastern Electric Racing",
+        "Volleyball (too much)",
+        "Longboarding",
       ]
     },
   ]
@@ -296,53 +313,21 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "",
+      subtitle:"",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "",
+          url: ""
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "",
+          url: ""
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -356,17 +341,11 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        ""
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -381,10 +360,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -398,7 +377,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -409,22 +388,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a position or project? Please reach out!",
+  number: "610-597-2583",
+  email_address: "li.edw@northeastern.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

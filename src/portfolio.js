@@ -290,7 +290,7 @@ const educationInfo = {
       schoolName: "Northeastern University",
       logo: require("./assets/images/neu.jpeg"),
       subHeader: "Candidate for BS, Computer Science & Business Administration",
-      duration: "September 2021 - April 2025",
+      duration: "September 2021 - May 2025",
       desc: "How I spend my days:",
       descBullets: [
         "Teaching Assistant",

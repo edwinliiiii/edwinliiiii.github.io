@@ -48,7 +48,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop elegant Front ends / User Interfaces for web and mobile applications"),
     emoji("⚡ Business logic & data delivery following Microservice architecture / Lightweight protocol"),
-    emoji("⚡ Data infrastructure through ETL pipelining and AWS / Bash Orchestration "),
+    emoji("⚡ Data infrastructure through ETL pipelines and AWS / Bash Orchestration "),
     emoji("⚡ Integration of third party services like AWS / ElasticSearch / MongoDB")
   ],
 
@@ -194,7 +194,7 @@ const workExperiences = {
       desc1: emoji("Lens Power & Renewables"),
       descBullets: [
         "TypeScript, React, GraphQL, Python",
-        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step, Athena]"
+        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step, Athena, Lambda]"
       ]
     },
     {
@@ -291,13 +291,12 @@ const educationInfo = {
       logo: require("./assets/images/neu.jpeg"),
       subHeader: "Candidate for BS, Computer Science & Business Administration",
       duration: "September 2021 - May 2025",
-      desc: "How I spend my days:",
+      desc: "How I spen(d,t) my days:",
       descBullets: [
-        "Teaching Assistant",
-        "Generate Product Development",
-        "Northeastern Electric Racing",
-        "Volleyball (too much)",
-        "Longboarding",
+        "Teaching Assistant: Algorithms",
+        "Generate Product Development: Software Engineer",
+        "Volleyball: My knees hurt",
+        emoji("Longboarding: 🛹"),
       ]
     },
   ]

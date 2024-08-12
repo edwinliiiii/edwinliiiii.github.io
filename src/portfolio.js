@@ -187,7 +187,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Co-op",
+      role: "Software Engineering Co-op",
       company: "Wood Mackenzie",
       companylogo: require("./assets/images/woodmac.jpeg"),
       date: "Jan 2024 – June 2024",
@@ -198,7 +198,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Co-op",
+      role: "Software Engineering Co-op",
       company: "MITRE",
       companylogo: require("./assets/images/mitre.jpeg"),
       date: "Jan 2023 – June 2023",

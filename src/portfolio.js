@@ -194,7 +194,7 @@ const workExperiences = {
       desc1: emoji("Lens Power & Renewables"),
       descBullets: [
         "TypeScript, React, GraphQL, Python",
-        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step, Athena, Lambda]"
+        "Jenkins, Elasticsearch, AWS: [Glue, S3, Step, Athena, Lambda, Cloudformation IaC]"
       ]
     },
     {
@@ -291,12 +291,10 @@ const educationInfo = {
       logo: require("./assets/images/neu.jpeg"),
       subHeader: "Candidate for BS, Computer Science & Business Administration",
       duration: "September 2021 - May 2025",
-      desc: "How I spen(d,t) my days:",
       descBullets: [
-        "Teaching Assistant: Algorithms",
+        "Teaching Assistant: Algorithms, Cybersecurity",
         "Generate Product Development: Software Engineer",
-        "Volleyball: My knees hurt",
-        emoji("Longboarding: 🛹"),
+        "Intramural Volleyball: The Ace",
       ]
     },
   ]
